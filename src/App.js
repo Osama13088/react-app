@@ -18,7 +18,7 @@ function App() {
         <>
             <Navbar aboutText="About React" mode={mode} toggleMode={toggleMode} />
             <div className="container">
-                <TextForm heading="Enter your Data" />
+                <TextForm heading="Enter your Data" mode={mode} />
                 {/* <About/> */}
             </div>
         </>
